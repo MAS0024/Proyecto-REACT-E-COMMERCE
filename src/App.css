@@ -1,0 +1,42 @@
+.navbar {
+  background-color: #282c34;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  color: white;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.item-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+}
+
+.item-detail {
+  padding: 1rem;
+}
+
+.item-count {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
