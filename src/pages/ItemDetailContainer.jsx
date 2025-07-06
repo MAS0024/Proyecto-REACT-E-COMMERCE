@@ -19,7 +19,7 @@ const ItemDetailContainer = () => {
   }, [id]);
 
   if (loading) return <div className="text-center mt-5">Cargando producto...</div>;
-  if (!product) return <div className="text-center mt-5">Producto no encontrado</div>;
+  if (!product) return <div className="text-center mt-5">Producto no disponible</div>;
 
   return (
     <div className="container mt-4">
