@@ -34,7 +34,7 @@ git clone https://github.com/tu-usuario/tu-repo.git
 cd tu-repo 
 ```
 
-2. En caso de no poder lograr funcionar la opcion anterior, puedes realizar lo siguiente:
+### 2. En caso de no poder lograr funcionar la opcion anterior, puedes realizar lo siguiente:
 
 ## Crea un proyecto nuevo
 npm create vite@latest ecommerce-react -- --template react
@@ -43,6 +43,6 @@ cd ecommerce-react
 # Instalar dependencias
 npm install react-router-dom bootstrap react-icons firebase
 
-# una vez creado todo eso, puedes pasar/copiar la carpeta src del proyecto que se encuentra en este repositorio y pasarlo al nuevo proyecto creado (ecommerce-react) y ejecutar lo siguiente
+# una vez creado todo eso, puedes pasar/copiar la carpeta src y el archivo .env del proyecto que se encuentra en este repositorio y pasarlo al nuevo proyecto creado (ecommerce-react) y ejecutar lo siguiente
 
 npm run dev
